@@ -1,0 +1,18 @@
+The template provided serves to test whether a given implementation of a string matching function works correctly.
+
+Usage intstructions:
+	call the test() function (defined in helper.c) with the third parameter as the function you would like to test.
+	You must follow the function signature provided in the interface (string_matching.h)
+	eg. to test the Boyer Moore function call test as follows
+		test(text, pattern, boyerMoore);
+	(Make sure you change SIZE defined in helper.h as per requirements)
+
+Compilation instructions:
+	gcc -o main.o main.c helper.c string_matching.c
+
+Execution instructions:
+	to the run the test from the template folder:
+	 ./main.o
+	to reduce the size of the input file use:
+	  head -c N ../text_file.txt > ../test_file.txt
+	( make sure to change the file name in main.c )
